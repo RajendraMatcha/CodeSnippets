@@ -12,7 +12,7 @@ def sum_square(number):
     s += ii*ii
   return s
 
-if __name__ == '__main__':
+def main():
   total_cores = mp.cpu_count()
   p = mp.Pool(processes=total_cores)
   
@@ -21,4 +21,8 @@ if __name__ == '__main__':
   
   p.close()
   p.join()
+
+
+if __name__ == '__main__':
+	main()
   
