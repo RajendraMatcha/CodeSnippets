@@ -1,6 +1,5 @@
 # Multiprocessing using 'Pool'
 
-import time
 import multiprocessing as mp
 
 def sum_square(number):
