@@ -1,4 +1,8 @@
 # Multiprocessing using 'Pool'
+# Using multiprocessing, we can split the work and dispatch to multiple CPUs.
+
+# Using multiprocessing, we cannot dispatch across multiple machines.
+# For dispatching across multiple machines, try 'Ray' or 'Dask' or Jenkins?
 
 import multiprocessing as mp
 
